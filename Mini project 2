@@ -1,0 +1,139 @@
+MINI PROJECT-2
+                                    RESUME
+HTML CODE
+
+<!doctype html>
+<html>
+
+
+
+<head>
+    <link rel="stylesheet" href="resume.css"> </head>
+<style>
+    .p {
+        color: white;
+        background-color: blue;
+        font-size: 45px;
+    }
+    
+    .a {
+        background-color: grey;
+    }
+    
+    .b {
+        background-color: grey;
+    }
+    
+    .c {
+        background-color: grey;
+    }
+    
+    h1 {
+        background-color: blue;
+    }
+    
+    img {
+        width: 30%;
+        height: 35%;
+    }
+    
+    .m {
+        background-color: grey;
+    }
+</style>
+
+
+
+<body>
+
+
+
+    <pre class="p">DNYANESHWAR DAKHORE <img src="emoji.jpg">  </pre>
+    <pre><h3>Eager to contribute through hardwork and always motivated to learn, grow <br>and excel in my field." </h3></pre>
+
+
+
+    <h2 class="a"> TECHNICAL SKILLS</h2>
+    <h3>
+        <li> Programing language : C,C++,Java,Python </li>
+        <li> Technologies : HTML,CSS,JSP,MACHINE LEARNING </li>
+    </h3>
+    <h2 class="b"> EDUCATION </h2>
+    <table border="5" width="95%" height="30%">
+
+
+
+
+        <tr>
+            <tr>
+                <th> YEAR </th>
+                <th> STANDARD </th>
+                <th> COLLEGE </th>
+            </tr>
+
+
+
+            <th> 2016-2017 </th>
+            <th> SSC </th>
+            <th> Dr.U.S.Wankhede Vidyalay, Kanjara</th>
+        </tr>
+
+
+
+        <tr>
+
+
+
+            <th> 2019-2020 </th>
+            <th> HSC </th>
+            <th> Deedayala Junior College, Nanded</th>
+        </tr>
+
+
+
+        <tr>
+            <th> 2020-2024 </th>
+            <th> B-TECH. </th>
+            <th> Shree Guru Govind Singh Institute Of Engineering And Technology, Nanded </th>
+        </tr>
+    </table>
+
+
+
+    <h2 class="m"> MY PROFILE </h2>
+    <li> <a href="Linkden.html"> LINKDEN </a> </li>
+    <li> <a href="GIT HUB LINK"> GIT LINK </a> </li>
+
+
+
+
+    <h2 class="c"> PROJECTS </h2>
+    I. PROJECT ONE NAME : Mini Project 1 <br> II.PROJECT TWO NAME : Mini Project 2
+
+
+
+</body>
+
+
+
+</html>
+
+
+CSS CODE
+
+body {
+    border: solid black;
+    border-width: 10px;
+    padding: 0%;
+    border-bottom-color: grey;
+    margin-left: 29%;
+    margin-right: 30%;
+    margin-bottom: 20%;
+}
+
+
+
+table {
+    margin-left: 15px;
+}
+
