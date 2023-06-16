@@ -1,0 +1,239 @@
+MINI PROJECT-1
+                                 REGISTRATION FORM 
+
+HTML CODE
+<!doctype html>
+<html>
+
+
+
+<head>
+    <link rel="stylesheet" href="mini project 1.css">
+    <style>
+        .a {
+            font-size: 40px;
+            background-color: white;
+        }
+        
+        .b {
+            color: black;
+            margin-left: 25px;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        
+        .option {
+            position: relative;
+            line-height: 40px;
+            padding: 0 22px;
+            font-size: 15px;
+            color: #555;
+            outline: none;
+            overflow: hidden;
+        }
+        
+        .x {
+            font-size: 20px;
+        }
+        
+        .y {
+            margin-left: 580px;
+        }
+        
+        .y:hover {
+            color: red;
+        }
+        
+        form {
+            margin-top: -40px;
+            border: solid black;
+            border-width: 8px;
+        }
+        
+        .c {
+            margin-left: 500px;
+        }
+        
+        .m {
+            margin-left: 500px;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div style="background-image: url('12.png');">
+        <div class="a"> <pre>                        REGISTRATION FORM </pre> </div>
+        <form>
+            <div class="b">
+                <label class="c"> Name : </label>
+                <input class="name" type="text" name="name">
+                <br><br>
+                <label class="c"> Password :</label>
+                <input class="Password" type="text" name="Password">
+                <br><br>
+                <label class="c"> Confirm Password : </label>
+                <input class="Confirm Password" type="text" name="Confirm Password">
+                <br><br>
+                <label class="c"> Phone Number : </label>
+                <input class="Phone Number" type="text" name="Phone Number">
+                <br><br>
+                <label class="c"> E-mail Id : </label>
+                <input class="E-mail Id" type="text" name="E-mail Id">
+                <br><br>
+                <label class="c"> Gender : </label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <br><br>
+                <label class="c"> Date Of Birth : </label>
+                <input type="date" name="Date of Birth"><br><br>
+                <label class="c"> Choose Your Continent : </label>
+                <select class="option" name="Choose Your Continent">
+                <option disabled=" disabled " selected="selected "> Choose Option
+                <option> Europe </option>
+                <option> Asia </option>
+                <option> Antartica </option>
+                <option> North America </option>
+                <option> Australia </option>
+                <option> North America</option>
+                <option> South America </option>
+                </select>
+
+
+
+
+
+
+                <br><br><label class=" m "> Language Known : </label>
+                <label class="x ">
+<input type="radio" name="Language" value="" >English
+</label>
+                <label class="x ">
+<input type="radio" name="Language" value="" >Hindi
+</label>
+                </label>
+            </div>
+            <br>
+            <a href="url " class="y "> Already Had An Account? Login </a>
+            <br>
+            <br>
+            <div>
+                <pre>                                                                          <button type="Submit "> Submit</button> <button type="Reset "> Reset </button>
+</pre>
+            </div>
+        </form>
+    </div>
+
+
+
+    <body>
+
+
+
+</html>
+CSS CODE
+form {
+    margin-top: -40px;
+    border: solid black;
+    border-width: 8px;
+}
+
+
+
+.c {
+    margin-left: 500px;
+}
+
+
+
+.m {
+    margin-left: 500px;
+}
+
+
+                   LOGIN PAGE
+HTML CODE
+<!doctype html>
+<html>
+
+
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-color: orange;
+    }
+    
+    .c {
+        margin-top: 30px;
+        font-size: 45px;
+        margin-left: 600px;
+    }
+    
+    .a {
+        font-size: 25px;
+        margin-left: 600px;
+    }
+    
+    .b {
+        font-size: 20px;
+        margin-left: 630px;
+    }
+    
+    .d {
+        margin-left: 700px;
+    }
+</style>
+</head>
+
+
+
+<body>
+    <h1 class="c"> LOGIN PAGE </h1>
+    <form>
+        <div>
+            <label class="a"> User Name : </label>
+            <input class="User Name" type="text" name="User Name">
+            <br> <br>
+            <label class="a"> Password : </label>
+            <input class="Username" type="text" name="Username">
+            <br> <br>
+            <button type="Submit" class="d"> Submit </button>
+            <br> <br>
+            <a href="url" class="b"> Did Not Register SIGN UP? </a>
+        </div>
+    </form>
+</body>
+
+
+
+</html>
+CSS CODE
+form {
+    margin-top: -20px;
+    border: solid black;
+    border-width: 2px;
+}
+
+
+
+.c {
+    margin-left: 500px;
+}
+
+
+
+.m {
+    margin-left: 500px;
+}
+
+
+
+
+          
+
+
+                       
